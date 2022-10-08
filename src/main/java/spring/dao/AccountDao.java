@@ -1,6 +1,6 @@
 package spring.dao;
 
-import spring.model.Account;
+import spring.model.TableA;
 
 /**
  * @author jangle
@@ -10,6 +10,6 @@ import spring.model.Account;
  */
 public interface AccountDao {
 	
-	public Account find(long accountId);
-
+	public TableA find(long accountId);
+	
 }
